@@ -13,7 +13,7 @@ int main(void)
 
 		/* for loop */
 		/* My Code */
-		if n > 0
+		if (n > 0)
 		{
 			printf("n is postive \n");
 		}
