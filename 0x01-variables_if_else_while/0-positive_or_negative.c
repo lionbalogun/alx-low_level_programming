@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main -Entry point
- * 
+ *
  * my code
  * Return: sucess always
  */
