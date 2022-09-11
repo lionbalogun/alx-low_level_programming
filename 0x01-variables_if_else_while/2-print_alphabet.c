@@ -1,22 +1,18 @@
 #include <stdio.h>
-#include <ctype.h>
+#include <stdlib.h>
 
 /**
- * main -Entry point
- *
- * my code
- * Return: sucess always
- */
-
+* main - putchar print lowercase alphabets
+*
+* Description: using the main function
+* this program prints Lowercase Alphabets a-z
+* Return: 0
+*/
 int main(void)
 {
-for (int x = 'A'; x <= 'Z'; x++)
+int i;
+for (i = 97; i <= 122; i++)
 {
-int lower_x = tolower(x);
-putchar(lower_x);
+putchar(i);
 }
-putchar('\n');
-
-return (0);
 }
-
