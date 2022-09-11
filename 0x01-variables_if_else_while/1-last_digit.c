@@ -11,16 +11,16 @@
  */
 int main(void)
 {
-	int n;
+    int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+    srand(time(0));
+    n = rand() - RAND_MAX / 2;
+    /* your code goes there */
     if (n % 10 > 5)
     {
         printf("%d is greater than 5 ", n);
     }
-  if (n % 10 == 5)
+    if (n % 10 == 5)
     {
         printf("%d and is 0 ", n);
     }
@@ -28,5 +28,5 @@ int main(void)
     {
         printf("%d is less than 6 and not 0 ", n);
     }
-	return (0);
+    return (0);
 }
