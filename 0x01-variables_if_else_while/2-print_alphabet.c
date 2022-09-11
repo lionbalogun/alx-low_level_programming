@@ -17,4 +17,3 @@ for (int x = 'A'; x <= 'Z'; x++)
     }
     return 0;
 }
-
