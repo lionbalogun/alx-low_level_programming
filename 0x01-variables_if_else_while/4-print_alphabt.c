@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
  * main - putchar print Uppercase and lowercase alphabets
@@ -12,20 +14,14 @@ int main(void)
 {
 int c ;
 
-for (c = 48; c <= 57; c++)
-
+for (c = 97; c < 123; c++)
+{
+if (c !=101 && c !=113)
 {
 putchar(c);
-if (c != 57)
-{
-putchar(',');
-
-
-}
-
 }
 putchar('\n');
-
+}
 return (0);
 
 }
