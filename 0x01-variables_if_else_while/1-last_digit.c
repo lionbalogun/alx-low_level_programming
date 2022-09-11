@@ -18,15 +18,15 @@ int main(void)
 	/* your code goes there */
     if (n % 10 > 5)
     {
-        printf("%d is greater than 5 ");
+        printf("%d is greater than 5 ", n);
     }
   if (n % 10 == 5)
     {
-        printf("%d and is 0 ");
+        printf("%d and is 0 ", n);
     }
     if (n % 10 < 6)
     {
-        printf("%d is less than 6 and not 0 ");
+        printf("%d is less than 6 and not 0 ", n);
     }
 	return (0);
 }
