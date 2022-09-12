@@ -21,7 +21,7 @@ e = 48;
 while (e < 58)
 {
 i = 48;
-while(i < 58)
+while (i < 58)
 {
 op1 = (h * 10) + g;
 op2 = (e * 10) + i;
