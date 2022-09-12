@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - putchar print 0-9
+ * main - putchar print lowercase in reverse order
  *
  * Description: using the main function
  * this program prints base 10 numbers
@@ -10,12 +10,9 @@
 int main(void)
 {
 int i;
-
-for(i = 48; i < 58; i++)
-
+for(i = 122; i > 96; i--)
 {
 putchar(i);
 }
-putchar('\n');
 return (0);
 }

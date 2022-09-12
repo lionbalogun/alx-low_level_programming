@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - putchar print Uppercase and lowercase alphabets
+ * main - Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line
  *
  * Description: using the main function
  * this program prints Uppercase and Lowercase Alphabets
@@ -11,9 +11,9 @@ int main(void)
 {
 int i;
 
-for (i = 0; i < 10; i++)
+for(i = 0; i < 10; i++)
 {
-    printf("%d", i);
+printf("%d", i);
 }
 putchar('\n');
 return (0);
