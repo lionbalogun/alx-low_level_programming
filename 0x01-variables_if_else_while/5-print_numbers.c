@@ -1,28 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 /**
- * main - putchar print Uppercase and lowercase alphabets
+ * main - Write a program that prints all single digit numbers of base 10
  *
  * Description: using the main function
  * this program prints Uppercase and Lowercase Alphabets
  * Return: 0
  */
-
 int main(void)
 {
-int c;
+int i;
 
-for (c = 97; c < 123; c++)
+for (i = 0; i < 10; i++)
 {
-if (c != 101 && c != 113)
-{
-putchar(c);
-}
-
+printf("%d", i);
 }
 putchar('\n');
-
 return (0);
 }
