@@ -1,37 +1,17 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
-*print_triangle - prints a triangle
-*@size:size parameter of triangle
-*Return: returns nothing
-*/
+ *_isdigit - checks whether a  character is a digit or not
+ *@c: tested character
+ *Return: 1 if it is, 0 otherwise
+ */
 
-void print_triangle(int size)
+int _isdigit(int c)
 {
-	int inc1, inc2;
-
-	if (size > 0)
+	if ((c >= 48) && (c <= 57))
 	{
-		for (inc1 = 1; inc1 <= size; inc1++)
-		{
-			for ((inc2 = size - inc1); inc2 > 0; inc2--)
-			{
-				putchar(' ');
-			}
-
-			for (inc2 = 0; inc2 < inc1; inc2++)
-			{
-				putchar('#');
-			}
-
-			if (inc1 == size)
-			{
-				continue;
-			}
-
-			putchar('\n');
-		}
+		return (1);
 	}
-	putchar('\n');
+
+	return (0);
 }
