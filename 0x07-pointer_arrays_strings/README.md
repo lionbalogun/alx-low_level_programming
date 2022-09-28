@@ -1,1 +1,0 @@
-READ me file of project 7 pointers and more on strings and array
