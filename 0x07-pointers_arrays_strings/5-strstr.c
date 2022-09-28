@@ -23,11 +23,12 @@ break;
 }
 if (needle[j])
 {
-    i++;
-    j = 0;
+i++;
+j = 0;
 }
-else 
+else
 return (haystack + i);
 }
-return(0);
+return (0);
+
 }
